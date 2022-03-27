@@ -1,0 +1,103 @@
+body{
+	background: -webkit-linear-gradient(left,#a445b2,#fa4299)!important;
+}
+.main-contain {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .main-bottom {
+    height: 24vh;
+    background-color: #fff;
+  }
+
+  .main-contain::before {
+    position: absolute;
+    content: '';
+    width: 33%;
+    height: 100%;
+    background: -webkit-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
+    background: -o-linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
+    background: linear-gradient(rgba(0, 103, 244, 0.3) 0%, rgba(43, 219, 220, 0.3) 100%);
+    top: 0;
+    right: 15%;
+    -webkit-transform: skewX(20deg);
+    -moz-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    transform: skewX(20deg);
+    z-index: 1;
+  }
+
+  .main-text h1 {
+    color: #fff;
+    font-size: 80px !important;
+    font-weight: 700;
+
+  }
+
+  .main-button {
+    margin-top: 25px;
+  }
+
+  .main-button a,
+  .btn-logout {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.4s;
+  }
+
+  .btn-logout,
+  .btn-item-1 {
+    margin-right: 20px;
+    border: 2px solid #fa4299;
+    background-color: #fff;
+    display: inline-block;
+    color: #fa4299;
+  }
+
+  .btn-logout:hover,
+  .btn-item-1:hover {
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #fa4299;
+  }
+
+  .btn-item-2 {
+    color: #fff;
+    display: inline-block;
+    border: 2px solid #fff;
+    background-color: #fa4299;
+  }
+
+  .btn-item-2:hover {
+    border: 2px solid #fa4299;
+    color: #fa4299;
+    background-color: #fff;
+  }
+
+  .btn-logout {
+    padding: 12px 30px;
+    z-index: 100;
+    font-size: 18px;
+  }
+
+  .col-6 img {
+    z-index: 1000;
+  }
+
+  .btn-item-right {
+    position: absolute;
+    top: 20px;
+    right: 0;
+  }
+
+  
